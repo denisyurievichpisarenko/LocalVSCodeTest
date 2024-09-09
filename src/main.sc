@@ -24,6 +24,9 @@ theme: /
     
     state: Else
         a: Что-то ещё?
+        buttons:
+            "Да" -> "/Hello"
+            "Нет" -> "/Bye"
 
     state: NoMatch
         event!: noMatch
