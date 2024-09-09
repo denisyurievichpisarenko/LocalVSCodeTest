@@ -14,10 +14,13 @@ theme: /
         intent!: /пока
         a: Пока пока
 
+    state: Word
+        q!: * скажи* [люб*/случайн*] (слов*/что*) *
+        random:
+            a: Облако
+            a: Озеро
+            a: Башня
+
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
-
-    state: Match
-        event!: match
-        a: {{$context.intent.answer}}
