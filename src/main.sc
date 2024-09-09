@@ -20,6 +20,10 @@ theme: /
             a: Облако
             a: Озеро
             a: Башня
+        go!: /Else
+    
+    state: Else
+        a: Что-то ещё?
 
     state: NoMatch
         event!: noMatch
